@@ -1,0 +1,10 @@
+#créer stocker fichier MdP 
+import json
+
+utilisateur = '{"name" : "Leslie",\
+    "email" : "leslie.sayegh@laplateforme.io",\
+        "MdP" : "Siriana06"}'
+#recu données forme dico
+personneDict = json.loads (utilisateur)
+print (personneDict)
+
